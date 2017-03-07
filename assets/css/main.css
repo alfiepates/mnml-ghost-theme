@@ -187,8 +187,8 @@ strong, bold, b{
 }
 
 .post-content p{
-  margin-bottom:0em;
-  -webkit-margin-after: 0em;
+  margin-bottom:1.65rem; /* This is 0em in upstream */
+  -webkit-margin-after: 1.65rem; /* This is 0em in upstream */
 }
 
 

@@ -179,6 +179,7 @@ strong, bold, b{
    Comment this block out if you want your paragraphs marked by space rather
    than indent. */
 
+/* THIS BLOCK COMMENTED OUT TO DISABLE TRADITIONAL PARAGRAPHS. 
 
 .post-content > p + p,
 .post-content .thumb + p,
@@ -187,8 +188,8 @@ strong, bold, b{
 }
 
 .post-content p{
-  margin-bottom:1.65rem; /* This is 0em in upstream */
-  -webkit-margin-after: 1.65rem; /* This is 0em in upstream */
+  margin-bottom:0em; 
+  -webkit-margin-after: 0em; 
 }
 
 
@@ -206,6 +207,7 @@ strong, bold, b{
   margin-bottom: 1.1rem;
 }
 
+*/
 
 /* END OF TRADITIONAL PARAGRAPH STYLES*/
 
